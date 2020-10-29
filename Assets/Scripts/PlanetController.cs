@@ -134,7 +134,7 @@ public class PlanetController : MonoBehaviour
                 Destroy(block);
             }
         }
-        catch (IndexOutOfRangeException e)
+        catch (IndexOutOfRangeException)
         {
             return;
         }
